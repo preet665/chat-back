@@ -14,7 +14,7 @@ var commonService = require('./services/common')
 var app = express();
 let http = require('http');
 let server = http.Server(app);
-const port = process.env.PORT || 3000;
+const port = 443;
 
 let socketIO = require('socket.io');
 let io = socketIO(server);
